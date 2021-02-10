@@ -15,15 +15,24 @@ html, body {
     font-family: 'Nunito';
 }
 
-header {
-    height: 100px;
+header, footer {
     width: 100%;
     display: flex;
     padding: 2% 5%;
     align-items: center;
     justify-content: space-between;
     background-color: var(--beige);
+}
+
+header {
+    height: 100px;
     border-bottom: 2px solid var(--beige-dark);
+    margin-bottom: 25px;
+}
+
+footer {
+    border-top: 2px solid var(--beige-dark);
+    margin-top: 25px;
 }
 
 header a.logo {
@@ -36,15 +45,24 @@ header a.logo img {
     width: inherit;
 }
 
-header nav a {
-    margin-right: 15px;
+footer span {
+    color: var(--red);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+header nav a, footer a {
     color: var(--red);
     font-weight: 800;
     font-size: 15px;
     transition: 150ms;
 }
 
-header nav a:hover {
+header nav a {
+    margin-right: 15px;
+}
+
+header nav a:hover, footer a:hover {
     color: var(--red-light);
 }
 
@@ -55,6 +73,10 @@ main {
 main h1, main h2 {
     color: var(--red);
     font-weight: 800;
+}
+
+main h1 {
+    margin-top: 0;
 }
 
 main section {
