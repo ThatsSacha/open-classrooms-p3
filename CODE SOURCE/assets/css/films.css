@@ -1,0 +1,11 @@
+html body.films section .card-container .card {
+    min-height: 350px;
+}
+
+html body.films section .card-container .card .card-bottom {
+    min-height: 190px;
+}
+
+html body.films section .card-container .card .card-bottom .flex-row {
+    min-height: 40px;
+}
