@@ -1,3 +1,17 @@
+html body main {
+    display: flex;
+    flex-direction: column;
+}
+
+html body main img.cover {
+    height: auto;
+    width: 100%;
+    max-width: 670px;
+    max-height: 330px;
+    align-self: center;
+    filter: drop-shadow(0px 0px 15px var(--beige-dark));
+}
+
 body.pre-reservation main h3, body.pre-reservation main strong {
     color: var(--red);
 }
