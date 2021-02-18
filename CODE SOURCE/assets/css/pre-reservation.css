@@ -7,7 +7,7 @@ html body main img.cover {
     height: auto;
     width: 100%;
     max-width: 670px;
-    max-height: 330px;
+    max-height: 360px;
     align-self: center;
     filter: drop-shadow(0px 0px 15px var(--beige-dark));
 }

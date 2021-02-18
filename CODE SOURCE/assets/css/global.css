@@ -214,5 +214,14 @@ form select, form input, form textarea {
 }
 
 form select, form input {
-    height: 30px;
+    height: 40px;
+}
+
+form textarea {
+    font-family: 'Nunito';
+}
+
+form button {
+    height: 35px;
+    align-self: flex-end;
 }

@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Les Films de Plein Air | Contact</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="assets/img/favicon.png"/>
+        <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg="nest"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/global.css">
+        <link rel="stylesheet" href="/assets/css/contact.css">
+    </head>
+    <body class="contact">
+        <header>
+            <a href="/" class="logo">
+                <img src="assets/img/logo_transparent.png" alt="Logo Les Films de Plein Air">
+            </a>
+            <nav>
+                <a href="/">Accueil</a>
+                <a href="films.html">Films</a>
+                <a href="pre-reservation.html">Pré-réservation</a>
+                <a href="actualites.html">Actualités</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <aside class="left">
+                <h1>Contactez-nous</h1>
+                <form action="#">
+                    <div class="input-container">
+                        <label for="first-name">Votre prénom</label>
+                        <input id="first-name" type="text" placeholder="Ex: Jean" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="last-name">Votre nom</label>
+                        <input id="last-name" type="text" placeholder="Ex: Dupont" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="email">Votre adresse mail</label>
+                        <input id="email" type="email" placeholder="exemple@mail.fr" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="object">Objet du message</label>
+                        <input id='object' type="text" placeholder="Ex: À propos de ma réservation au nom de Dupont..." required>
+                    </div>
+                    <div class="input-container">
+                        <label for="message">Votre message</label>
+                        <textarea id="message" placeholder="Bonjour..." required></textarea>
+                    </div>
+                    <button class="red-btn">
+                        <i class="far fa-paper-plane"></i>
+                        Envoyer
+                    </button>
+                </form>
+                <section class="map">
+                    <h2>Nous sommes là</h2>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1qrf0tONFfpMAKhCuMSNVt-zm-mjlM0--" width="100%" height="480"></iframe>
+                </section>
+            </aside>
+           <aside class="right">
+               <h3>Les prochains films</h3>
+           </aside>
+        </main>
+        <footer>
+            <span>Les Films de Plein Air - 2021</span>
+            <a href="mentions-legales">Mentions légales</a>
+        </footer>
+    </body>
+</html>

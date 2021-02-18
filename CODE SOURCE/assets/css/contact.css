@@ -1,0 +1,33 @@
+html body.contact main {
+    display: flex;
+}
+
+html body.contact main aside.left {
+    width: 40%;
+    margin-right: 10%;
+}
+
+html body.contact main aside.right {
+    width: 40%;
+    margin-left: 10%;
+}
+
+html body.contact main aside.left form {
+    display: flex;
+    flex-direction: column;
+}
+
+html body.contact main aside.left form .input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+html body.contact main aside.left form .input-container input, html body.contact main aside.left form .input-container textarea {
+    width: 100%;
+}
+
+html body.contact main aside.left form .input-container textarea {
+    height: 200px;
+    resize: vertical;
+}
