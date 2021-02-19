@@ -86,14 +86,14 @@ main section {
     flex-direction: column;
 }
 
-main section .card-container {
+main .card-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-main section div.card {
+main div.card {
     margin: 10px 5px;
     height: auto;
     min-height: 315px;
@@ -106,11 +106,11 @@ main section div.card {
     transition: 300ms;
 }
 
-main section div.card:hover {
+main div.card:hover {
     box-shadow: 0 0 10px 0 var(--beige);
 }
 
-main section div.card .card-top {
+main div.card .card-top {
     min-height: 157.5px;
     height: 40%;
     width: 100%;
@@ -119,7 +119,7 @@ main section div.card .card-top {
     background-size: cover;
 }
 
-main section div.card .card-bottom {
+main div.card .card-bottom {
     height: 60%;
     width: 100%;
     padding: 10px;
@@ -129,7 +129,7 @@ main section div.card .card-bottom {
     justify-content: space-between;
 }
 
-main section div.card .card-bottom h3 {
+main div.card .card-bottom h3 {
     margin-top: 0;
     margin-bottom: 5px;
     text-align: center;
@@ -137,7 +137,7 @@ main section div.card .card-bottom h3 {
     font-weight: 800;
 }
 
-main section div.card .card-bottom p {
+main div.card .card-bottom p {
     margin: 0;
     text-align: justify;
 }
@@ -159,7 +159,7 @@ form .flex-row button {
     font-size: 15px;
 }
 
-main section div.card .card-bottom div.flex-row span {
+main div.card .card-bottom div.flex-row span {
     color: var(--red);
 }
 
@@ -199,7 +199,7 @@ button.beige-btn:hover {
     transform: scale(1.01);
 }
 
-main section div.card .card-bottom div.flex-row button i {
+main div.card .card-bottom div.flex-row button i {
     margin-right: 5px;
 }
 

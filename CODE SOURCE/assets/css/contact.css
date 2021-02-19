@@ -31,3 +31,55 @@ html body.contact main aside.left form .input-container textarea {
     height: 200px;
     resize: vertical;
 }
+
+html body.contact main aside.left section.map {
+    position: relative;
+}
+
+html body.contact main aside.left section.map h2 {
+    margin-bottom: 0;
+}
+
+html body.contact main aside.left section.map iframe {
+    border: none;
+}
+
+html body.contact main aside.left section.map .cache {
+    background-color: var(--broken-white);
+    height: 55px;
+    width: 100%;
+    position: absolute;
+    top: 51px;
+}
+
+html body.contact main aside.right h3 {
+    text-align: center;
+    color: var(--red);
+}
+
+html body.contact main aside.right .card-container {
+    justify-content: center;
+}
+
+html body.contact main aside.right .card-container .card {
+    min-height: unset;
+    min-width: unset;
+    max-width: 300px;
+    min-width: 200px;
+    height: 200px;
+    width: 80%;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+html body.contact main aside.right .card-container .card .card-top {
+    min-height: unset;
+}
+
+html body.contact main aside.right .card-container .card .card-bottom span {
+    color: var(--red);
+}
+
+html body.contact main aside.right .card-container .card .card-bottom button {
+    height: 35px;
+}
