@@ -172,6 +172,10 @@ main div.card .card-bottom div.flex-row span {
     color: var(--red);
 }
 
+a.button-container {
+    height: 100%;
+}
+
 button {
     height: 100%;
     width: 125px;
