@@ -103,6 +103,7 @@ main div.card {
     border: 1px solid var(--beige-dark);
     background-color: var(--beige);
     border-radius: 3px;
+    overflow: hidden;
     transition: 300ms;
 }
 
@@ -110,13 +111,21 @@ main div.card:hover {
     box-shadow: 0 0 10px 0 var(--beige);
 }
 
+main div.card:hover .card-top {
+    transform: scale(1.1);
+    top: -10px;
+}
+
 main div.card .card-top {
+    position: relative;
+    top: 0;
     min-height: 157.5px;
     height: 40%;
     width: 100%;
     background-image: url('../img/no-img.jpg');
     background-position: center;
     background-size: cover;
+    transition: 500ms;
 }
 
 main div.card .card-bottom {
