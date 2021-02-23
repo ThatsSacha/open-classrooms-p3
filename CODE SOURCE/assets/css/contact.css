@@ -84,6 +84,6 @@ html body.contact main aside.right .card-container .card .card-bottom span {
     color: var(--red);
 }
 
-html body.contact main aside.right .card-container .card .card-bottom button {
+html body.contact main aside.right .card-container .card .card-bottom a.button-container {
     height: 35px;
 }
