@@ -1,0 +1,7 @@
+html body.mentions-legales main {
+    flex-direction: column;
+}
+
+html body.mentions-legales main a {
+    color: var(--red-light);
+}
