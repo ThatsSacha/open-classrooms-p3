@@ -1,4 +1,5 @@
 :root {
+    --black: #0A100D;
     --beige: #D6D5C9;
     --beige-dark: #B9BAA3;
     --red: #902923;
@@ -153,6 +154,12 @@ main div.card .card-bottom h3 {
 main div.card .card-bottom p {
     margin: 0;
     text-align: justify;
+}
+
+main div.card .card-bottom span.date {
+    color: var(--red);
+    align-self: flex-start;
+    margin: 5px 0;
 }
 
 div.flex-row {
