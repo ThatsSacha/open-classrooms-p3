@@ -33,6 +33,10 @@ header {
     margin-bottom: 25px;
 }
 
+header .hamburger {
+    display: none;
+}
+
 footer {
     border-top: 2px solid var(--beige-dark);
     margin-top: 25px;
@@ -248,4 +252,97 @@ form textarea {
 form button {
     height: 35px;
     align-self: flex-end;
+}
+
+@media (max-width: 700px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        background-color: var(--beige);
+        left: 0;
+        width: 100%;
+        z-index: 0;
+        opacity: 0;
+        height: 200px;
+        z-index: -1;
+        padding: 20px 10px;
+        box-shadow: 0 20px 70px -50px black;
+        border-bottom: 2px solid var(--beige-dark);
+        transition: 300ms;
+    }
+
+    header nav a {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    header #menu-btn {
+        display: none;
+    }
+
+    header #menu-btn:checked ~ label .line {
+        display: none;
+    }
+
+    header #menu-btn:checked ~ label .cross {
+        display: flex;
+    }
+
+    header #menu-btn:checked ~ nav {
+        top: 100px;
+        z-index: 0;
+        opacity: 1;
+    }
+
+    header .hamburger {
+        z-index: 1;
+        border: 2px solid var(--red);
+        height: 80%;
+        width: 70px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+    }
+
+    header .hamburger a {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    header .hamburger .line {
+        height: 3px;
+        width: 100%;
+        background-color: var(--red);
+    }
+
+    header .hamburger .cross {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: none;
+    }
+
+    header .hamburger .cross .cross-line {
+        background-color: var(--red);
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        top: 50%;
+    }
+
+    header .hamburger .cross .cross-line:first-child {
+        transform: rotate(30deg);
+    }
+
+    header .hamburger .cross .cross-line:last-child {
+        transform: rotate(-30deg);
+    }
 }
