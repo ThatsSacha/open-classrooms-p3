@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Les Films de Plein Air | Pré-réservation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, max-width=1">
         <meta charset="UTF-8">
         <link rel="icon" href="assets/img/favicon.png"/>
         <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg="nest"></script>
@@ -34,38 +35,22 @@
             <h3>Ryan Gosling, Carey Mulligan & Bryan Cranston</h3>
             <form>
                 <div class="input-container">
-                    <h4>Choisissez une séance</h4>
-                    <select name="seance">
-                        <optgroup label="Aujourd'hui">
-                            <option value="1">Ce soir - 21h</option>
-                        </optgroup>
-                        <optgroup label="Demain">
-                            <option value="2">Demain - 18h30</option>
-                            <option value="3">Demain - 22h</option>
-                        </optgroup>
-                    </select>
-                </div>
-                <div class="input-container">
                     <h4>Pour combien de personnes ?</h4>
                     <input type="number" min="1" max="10" placeholder="Ex: 3" autofocus required>
                 </div>
                 <div class="input-container">
-                    <h4>Prénom + nom des personnes présentes <small>(séparés par une virgule)</small></h4>
-                    <input type="text" placeholder="Jean Dupont, Aurélie Truc..." required>
+                    <h4>Votre prénom et votre nom</h4>
+                    <input type="text" placeholder="Ex : Jean Dupont" required>
                 </div>
                 <div class="input-container">
-                    <h4>Adresse mail des personnes présentes <small>(séparés par une virgule)</small></h4>
-                    <input type="text" placeholder="j.dupont@mail.fr, aurelie@truc.com" required>
+                    <h4>Votre adresse mail</h4>
+                    <input type="text" placeholder="j.dupont@exemple.fr" required>
                 </div>
                 <div class="input-container checkbox">
                     <input id="newsletter" type="checkbox" required>
-                    <label for="newsletter">J'accepte l'inscription des adresses mail renseignées ci-dessus à la newsletter des Films de Plein Air</label>
+                    <label for="newsletter">J'accepte l'inscription à la newsletter des Films de Plein Air</label>
                 </div>
                 <div class="flex-row">
-                    <button class="beige-btn">
-                        <i class="fas fa-ban"></i>
-                        Annuler
-                    </button>
                     <button class="red-btn">
                         <i class="fas fa-check"></i>
                         Pré-réserver
