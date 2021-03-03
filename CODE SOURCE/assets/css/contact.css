@@ -87,3 +87,14 @@ html body.contact main aside.right .card-container .card .card-bottom span {
 html body.contact main aside.right .card-container .card .card-bottom a.button-container {
     height: 35px;
 }
+
+@media (max-width: 700px) {
+    html body.contact main aside.left {
+        width: 100%;
+        margin-right: unset;
+    }
+
+    html body.contact main aside.right {
+        display: none;
+    }
+}
