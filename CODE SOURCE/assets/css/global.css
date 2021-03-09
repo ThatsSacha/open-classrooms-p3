@@ -304,8 +304,8 @@ form button {
     header .hamburger {
         z-index: 1;
         border: 2px solid var(--red);
-        height: 80%;
-        width: 70px;
+        height: 70%;
+        width: 60px;
         padding: 5px;
         display: flex;
         flex-direction: column;
